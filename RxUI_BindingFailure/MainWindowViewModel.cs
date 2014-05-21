@@ -16,14 +16,15 @@ namespace RxUI_BindingFailure
             Items = new ReactiveList<string>(new List<string> { "Item1", "Item2", "Item3" });
 
             var canGoTo = this.WhenAny(vm => vm.SelectedItem, x => !string.IsNullOrEmpty(x.Value));
-            GoToCmd = ReactiveCommand.Create(canGoTo, _ =>
-                {
-                    Console.WriteLine("I made it here, so the SelectedItem binding must be fixed.");
-                });
-
+            GoToCmd = ReactiveCommand.Create(canGoTo);
+            
+            GoToCmd.Subscribe(_ =>
+            {
+                Console.WriteLine("I made it here, so the SelectedItem binding must be fixed.");
+            });
         }
 
-        public ReactiveCommand<Unit> GoToCmd { get; protected set; }
+        public ReactiveCommand<Object> GoToCmd { get; protected set; }
         public ReactiveList<string> Items { get; protected set; }
 
         private string _SelectedItem;
