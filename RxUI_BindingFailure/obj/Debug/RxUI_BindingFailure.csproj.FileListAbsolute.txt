@@ -38,3 +38,7 @@ c:\users\phil.sonocine\documents\visual studio 2013\Projects\RxUI_BindingFailure
 c:\users\phil.sonocine\documents\visual studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\ru\System.Windows.Interactivity.resources.dll
 c:\users\phil.sonocine\documents\visual studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 c:\users\phil.sonocine\documents\visual studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+c:\Users\phil.SONOCINE\Documents\Visual Studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\Newtonsoft.Json.dll
+c:\Users\phil.SONOCINE\Documents\Visual Studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\Splat.dll
+c:\Users\phil.SONOCINE\Documents\Visual Studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\Newtonsoft.Json.xml
+c:\Users\phil.SONOCINE\Documents\Visual Studio 2013\Projects\RxUI_BindingFailure\RxUI_BindingFailure\bin\Debug\Splat.pdb
